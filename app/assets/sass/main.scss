@@ -10,6 +10,19 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import 'fa';
+@import 'grid';
+@import 'vars';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 html,
 button,
 input,
@@ -96,9 +109,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@import 'fa';
-@import 'grid';
-@import 'vars';
+
 @import 'style';
 
 /* ==========================================================================
