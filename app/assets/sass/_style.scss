@@ -32,6 +32,10 @@ img {
   border-radius: 5px;
 }
 
+.sectionTitle {
+  font-size: 3em;
+}
+
 .bigIcon {
   display: block;
   margin: auto;
@@ -146,13 +150,15 @@ img {
 }
 
 #products {
+  padding-top: 50px;
+}
 
-    h1 {
-      text-align: center;
-    }
+#team  {
+  padding-top: 50px;
 }
 
 #footer {
+  padding-top: 50px;
   color: #fff;
   background-color: #202222;
 

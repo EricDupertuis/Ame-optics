@@ -1920,6 +1920,9 @@ img {
   margin: auto;
   border-radius: 5px; }
 
+.sectionTitle {
+  font-size: 3em; }
+
 .bigIcon {
   display: block;
   margin: auto;
@@ -2010,10 +2013,14 @@ img {
   #about h1 {
     text-align: center; }
 
-#products h1 {
-  text-align: center; }
+#products {
+  padding-top: 50px; }
+
+#team {
+  padding-top: 50px; }
 
 #footer {
+  padding-top: 50px;
   color: #fff;
   background-color: #202222; }
   #footer p {
