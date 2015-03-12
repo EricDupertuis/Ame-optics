@@ -1624,7 +1624,7 @@ body {
   clear: both; }
 
 .grid-pad {
-  padding: 20px 0 20px 0; }
+  padding: 20px; }
 
 .push-right {
   float: right; }
@@ -1819,8 +1819,6 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline; }
 
 html,
@@ -2005,11 +2003,6 @@ img {
 
 #footer {
   color: #fff;
-  background-image: url(../img/overlay.png), url(../img/bg2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 0;
-  background-attachment: fixed;
   background-color: #26292f; }
 
 /* ==========================================================================
