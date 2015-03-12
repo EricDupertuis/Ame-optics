@@ -1,6 +1,9 @@
 .idea
 app/assets/.sass-cache
 
+# Ignore production files #
+dist/
+
 # OS generated files #
 ######################
 .DS_Store
