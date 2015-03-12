@@ -1954,36 +1954,6 @@ img {
     text-decoration: none;
     color: #fff; }
 
-#nav {
-  position: fixed;
-  width: 100%;
-  height: 75px;
-  background-color: #141619; }
-  #nav h1 {
-    display: inline;
-    margin: 0 0 0 45px;
-    float: left;
-    line-height: 75px;
-    letter-spacing: 10px;
-    color: #fff; }
-  #nav ul {
-    padding: 0;
-    margin: 0 45px 0 0;
-    float: right;
-    width: auto;
-    height: 75px; }
-    #nav ul a {
-      display: inline-block;
-      height: 75px;
-      text-decoration: none;
-      color: #fff; }
-    #nav ul li {
-      height: 75px;
-      display: inline;
-      padding: 0 45px 0 45px;
-      list-style-type: none;
-      line-height: 75px; }
-
 #intro {
   padding: 12em 0 14em;
   background-image: url(../img/overlay.png), url(../img/bg2.png);
@@ -2060,6 +2030,69 @@ img {
     float: left;
     list-style-type: none; }
 
+@media only screen and (min-width: 901px) {
+  #nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #141619; }
+    #nav .hamburger {
+      display: none; }
+    #nav h1 {
+      display: inline;
+      margin: 0 0 0 45px;
+      float: left;
+      line-height: 75px;
+      letter-spacing: 10px;
+      color: #fff; }
+    #nav ul {
+      padding: 0;
+      margin: 0 45px 0 0;
+      float: right;
+      width: auto;
+      height: 75px; }
+      #nav ul a {
+        display: inline-block;
+        height: 75px;
+        text-decoration: none;
+        color: #fff; }
+      #nav ul li {
+        height: 75px;
+        display: inline;
+        padding: 0 45px 0 45px;
+        list-style-type: none;
+        line-height: 75px; } }
+@media only screen and (max-width: 900px) {
+  #nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #141619; }
+    #nav .hamburger {
+      display: inline-block;
+      float: right;
+      line-height: 75px;
+      font-size: 2em;
+      color: #fff;
+      margin-right: 45px; }
+    #nav h1 {
+      display: inline;
+      margin: 0 0 0 45px;
+      line-height: 75px;
+      letter-spacing: 10px;
+      color: #fff; }
+    #nav ul {
+      background-color: #141619;
+      margin: 0; }
+      #nav ul a {
+        height: 75px;
+        text-decoration: none;
+        color: #fff; }
+      #nav ul li {
+        height: 75px;
+        padding: 0 45px 0 45px;
+        list-style-type: none;
+        line-height: 75px; } }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
