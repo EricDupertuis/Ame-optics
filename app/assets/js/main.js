@@ -1,9 +1,11 @@
 $( document ).ready(function(){
-    $('.navList a').click(function(){
-        $('.navList').slideToggle();    
-    });
+    if ($(window).width() < 901) {
+        $('.navList a').click(function(){
+            $('.navList').slideToggle();
+        });
+    }
 
-    if ($(window).width() < 960) {
+    if ($(window).width() < 901) {
         $('.navList').slideUp();
     }
 });
