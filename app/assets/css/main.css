@@ -1900,7 +1900,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 100; }
 
 p {
@@ -2003,7 +2003,43 @@ img {
 
 #footer {
   color: #fff;
-  background-color: #26292f; }
+  background-color: #202222; }
+  #footer p {
+    color: #888; }
+  #footer a {
+    font-size: 3em;
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #888;
+    text-decoration: none; }
+  #footer .socialList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    height: 5em; }
+    #footer .socialList li {
+      margin-right: 20px;
+      float: left;
+      border: 1px solid #888;
+      border-radius: 100%;
+      width: 5em;
+      height: 5em; }
+      #footer .socialList li:hover {
+        border-color: #fff; }
+        #footer .socialList li:hover a {
+          color: #fff; }
+  #footer h2 {
+    display: inline-block;
+    width: 25%;
+    float: left; }
+  #footer .address {
+    float: left;
+    list-style-type: none; }
 
 /* ==========================================================================
    Helper classes
