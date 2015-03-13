@@ -1,14 +1,12 @@
 $( document ).ready(function(){
     if ($(window).width() < 901) {
+        $('.navList').hide();
+
         $('.navList a').click(function(){
-            $('.navList').slideDown( 400, function() {
+            $('.navList').slideToggle( 400, function() {
 
             });
         });
-    }
-
-    if ($(window).width() < 901) {
-        $('.navList').slideUp();
     }
 });
 
@@ -19,5 +17,5 @@ $('.navList a[href*=#], #introButton').on('click', function(event){
 
 $('.navToogle').click(function(e){
     e.preventDefault();
-    $('.navList').show;
+    $('.navList').slideToggle();
 });
