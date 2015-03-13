@@ -7,3 +7,13 @@
   from {top: 150px;opacity: 0}
   to {top: 0;opacity: 1}
 }
+
+@keyframes nav-appear {
+  from {top: -75px;opacity: 0}
+  to {top: 0;opacity: 1}
+}
+
+@-webkit-keyframes nav-appear {
+  from {top: -75px;opacity: 0}
+  to {top: 0;opacity: 1}
+}

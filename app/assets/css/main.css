@@ -1906,6 +1906,20 @@ textarea {
   to {
     top: 0;
     opacity: 1; } }
+@keyframes nav-appear {
+  from {
+    top: -75px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+@-webkit-keyframes nav-appear {
+  from {
+    top: -75px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
 * {
   transition: all 0.25s ease; }
 
@@ -1953,7 +1967,8 @@ img {
     position: fixed;
     width: 100%;
     height: 75px;
-    background-color: #141619; }
+    background-color: #141619;
+    animation: nav-appear 3s ease; }
     #nav .hamburger {
       display: none; }
     #nav h1 {
