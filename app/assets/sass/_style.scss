@@ -50,7 +50,7 @@ img {
 
 // Navigation
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 825px) {
 
   #nav {
     position: fixed;
@@ -59,11 +59,6 @@ img {
     background-color: #141619;
     animation: nav-appear 3s ease;
     z-index: 1000;
-
-
-    .hamburger {
-      display: none;
-    }
 
     h1 {
       display: inline;
@@ -107,22 +102,14 @@ img {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 824px) {
 
   #nav {
     position: fixed;
     width: 100%;
     height: 75px;
     background-color: #141619;
-
-    .hamburger {
-      display: inline-block;
-      float: right;
-      line-height: 75px;
-      font-size: 2em;
-      color: #fff;
-      margin-right: 45px;
-    }
+    z-index: 9999;
 
     h1 {
       display: inline;
@@ -132,10 +119,18 @@ img {
       color: #fff;
     }
 
+    .nav-toggle {
+      float: right;
+      margin: 0 45px 0 0;
+      font-size: 3em;
+      line-height: 75px;
+      color: #fff;
+    }
+
     ul {
       background-color: #141619;
       margin: 0;
-      position: relative;
+      position: absolute;
 
       a {
         height: 75px;
@@ -145,9 +140,11 @@ img {
 
       li {
         height: 75px;
-        padding: 0 45px 0 45px;
+        padding: 0 45px 0 0;
         list-style-type: none;
+        font-size: 1.5em;
         line-height: 75px;
+        text-align: center;
       }
     }
   }
@@ -250,7 +247,7 @@ img {
   }
 
   .socialList {
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 160px;
     padding: 0;
     list-style-type: none;
     display: inline-block;
@@ -275,16 +272,11 @@ img {
   }
 
   h2 {
-    text-align: left;
+    text-align: center;
   }
 
-  h2:after {
+  ul {
     display: inline-block;
-    width: 50%;
-    content: '';
-    border: 1px dashed #fff;
-    line-height: 3em;
-    margin: 6px 0 6px 75px;
   }
 
   .address {

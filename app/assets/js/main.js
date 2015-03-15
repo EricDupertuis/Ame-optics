@@ -1,4 +1,4 @@
-$('.navList a[href*=#], #introButton').on('click', function(event){
+$('.nav-collapse a[href*=#], #introButton').on('click', function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 });
