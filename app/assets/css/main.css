@@ -2108,10 +2108,10 @@ img {
     color: #888;
     text-decoration: none; }
   #footer .socialList {
-    margin: 0;
+    margin: 0 auto 0 auto;
     padding: 0;
     list-style-type: none;
-    display: block;
+    display: inline-block;
     height: 5em; }
     #footer .socialList li {
       margin-right: 20px;
@@ -2121,9 +2121,9 @@ img {
       width: 5em;
       height: 5em; }
       #footer .socialList li:hover {
-        border-color: #fff; }
+        border-color: #033475; }
         #footer .socialList li:hover a {
-          color: #fff; }
+          color: #033475; }
   #footer h2 {
     text-align: left; }
   #footer h2:after {
@@ -2137,6 +2137,47 @@ img {
     list-style-type: none;
     color: #888; }
 
+/*! responsive-nav.js 1.0.34 by @viljamis */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
