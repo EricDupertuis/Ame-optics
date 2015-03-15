@@ -247,11 +247,11 @@ img {
   }
 
   .socialList {
-    margin: 0 auto 0 160px;
+    margin: 0 auto 2em auto;
     padding: 0;
     list-style-type: none;
     display: inline-block;
-    height: 5em;
+    height: 2em;
 
     li {
       margin-right: 20px;
@@ -272,15 +272,32 @@ img {
   }
 
   h2 {
-    text-align: center;
+    text-align: left;
   }
 
   ul {
     display: inline-block;
+    padding: 0;
+    margin: 0;
   }
 
   .address {
+    display: block;
     list-style-type: none;
     color: #888;
+
+    a {
+      font-size: 1em;
+      display: inline;
+      line-height: 1em;
+      color: #fff;
+    }
+
+    .email {
+      display: inline-block;
+      margin-top: 5px;
+      padding-top: 5px;
+      border-top: 1px solid #fff;
+    }
   }
 }

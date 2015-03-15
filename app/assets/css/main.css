@@ -2108,11 +2108,11 @@ img {
     color: #888;
     text-decoration: none; }
   #footer .socialList {
-    margin: 0 auto 0 160px;
+    margin: 0 auto 2em auto;
     padding: 0;
     list-style-type: none;
     display: inline-block;
-    height: 5em; }
+    height: 2em; }
     #footer .socialList li {
       margin-right: 20px;
       float: left;
@@ -2125,12 +2125,25 @@ img {
         #footer .socialList li:hover a {
           color: #033475; }
   #footer h2 {
-    text-align: center; }
+    text-align: left; }
   #footer ul {
-    display: inline-block; }
+    display: inline-block;
+    padding: 0;
+    margin: 0; }
   #footer .address {
+    display: block;
     list-style-type: none;
     color: #888; }
+    #footer .address a {
+      font-size: 1em;
+      display: inline;
+      line-height: 1em;
+      color: #fff; }
+    #footer .address .email {
+      display: inline-block;
+      margin-top: 5px;
+      padding-top: 5px;
+      border-top: 1px solid #fff; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
