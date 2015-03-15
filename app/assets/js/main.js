@@ -8,6 +8,11 @@ $('.scrollTop').on('click', function(event){
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 });
 
+$('#introButton').on('click', function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+});
+
 /*! responsive-nav.js 1.0.34
  * https://github.com/viljamis/responsive-nav.js
  * http://responsive-nav.com
