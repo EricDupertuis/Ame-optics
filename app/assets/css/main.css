@@ -1998,7 +1998,7 @@ img {
         padding: 0 45px 0 45px;
         list-style-type: none;
         line-height: 75px; } }
-@media only screen and (max-width: 824px) {
+@media only screen and (min-width: 481px) and (max-width: 824px) {
   #nav {
     position: fixed;
     width: 100%;
@@ -2145,6 +2145,51 @@ img {
       padding-top: 5px;
       border-top: 1px solid #fff; }
 
+@media only screen and (max-width: 824px) {
+  #intro {
+    padding: 10em 0 14em; }
+
+  .socialList li {
+    margin-right: 20px;
+    float: left;
+    border: 1px solid #888;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em; } }
+@media only screen and (max-width: 480px) {
+  #nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #141619;
+    z-index: 9999; }
+    #nav h1 {
+      display: inline;
+      margin: 0 0 0 45px;
+      line-height: 75px;
+      letter-spacing: 10px;
+      color: #fff; }
+    #nav .nav-toggle {
+      float: right;
+      margin: 0 45px 0 0;
+      font-size: 3em;
+      line-height: 75px;
+      color: #fff; }
+    #nav ul {
+      background-color: #141619;
+      margin: 0;
+      position: absolute; }
+      #nav ul a {
+        height: 75px;
+        text-decoration: none;
+        color: #fff; }
+      #nav ul li {
+        height: 50px;
+        padding: 0 45px 0 0;
+        list-style-type: none;
+        font-size: 1.5em;
+        line-height: 50px;
+        text-align: center; } }
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
   margin: 0;
