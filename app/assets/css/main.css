@@ -1969,6 +1969,7 @@ img {
     height: 75px;
     background-color: #141619;
     animation: nav-appear 3s ease;
+    -webkit-animation: nav-appear 3s ease;
     z-index: 1000; }
     #nav h1 {
       display: inline;
@@ -2049,12 +2050,14 @@ img {
     font-weight: 100;
     letter-spacing: 15px;
     animation: appear 3s ease;
+    -webkit-animation: appear 3s ease;
     position: relative; }
   #intro p {
     text-align: center;
     position: relative;
     font-size: 2em;
-    animation: appear 3.5s ease; }
+    animation: appear 3.5s ease;
+    -webkit-animation: appear 3.5s ease; }
   #intro .button {
     display: block;
     position: relative;
@@ -2067,7 +2070,8 @@ img {
     border: 2px solid #fff;
     border-radius: 5px;
     line-height: 75px;
-    animation: appear 4s ease; }
+    animation: appear 4s ease;
+    -webkit-animation: appear 4s ease; }
     #intro .button:hover {
       background-color: rgba(255, 255, 255, 0.2); }
     #intro .button a {

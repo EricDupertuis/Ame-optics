@@ -58,6 +58,7 @@ img {
     height: 75px;
     background-color: #141619;
     animation: nav-appear 3s ease;
+    -webkit-animation: nav-appear 3s ease;
     z-index: 1000;
 
     h1 {
@@ -168,6 +169,7 @@ img {
     font-weight: 100;
     letter-spacing: 15px;
     animation: appear 3s ease;
+    -webkit-animation: appear 3s ease;
     position: relative;
   }
 
@@ -176,6 +178,7 @@ img {
     position: relative;
     font-size: 2em;
     animation: appear 3.5s ease;
+    -webkit-animation: appear 3.5s ease;
   }
 
   .button {
@@ -191,6 +194,7 @@ img {
     border-radius: 5px;
     line-height: 75px;
     animation: appear 4s ease;
+    -webkit-animation: appear 4s ease;
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.2);
