@@ -15,6 +15,7 @@ gulp.task('default', function() {
     // place code for your default task here
 });
 
+
 gulp.task('js', function() {
     return gulp.src('app/assets/js/*.js')
         .pipe(concat('main.js'))
