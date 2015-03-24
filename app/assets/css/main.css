@@ -2089,12 +2089,22 @@ img {
   background-image: linear-gradient(45deg, #033784 50%, #033475 50%); }
   #about h1 {
     text-align: center; }
+  #about p {
+    font-size: 1.5em; }
 
 #products {
   padding-top: 50px; }
+  #products figcaption {
+    text-align: center; }
+  #products p {
+    margin-top: 2em;
+    font-size: 2em;
+    text-align: center; }
 
 #team {
   padding-top: 50px; }
+  #team p {
+    font-size: 1.5em; }
 
 #footer {
   padding-top: 50px;
@@ -2112,12 +2122,19 @@ img {
     color: #888;
     text-decoration: none; }
   #footer .socialList {
-    margin: 0 auto 2em auto;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
     padding: 0;
     list-style-type: none;
-    display: inline-block;
     height: 2em; }
+    #footer .socialList ul {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
     #footer .socialList li {
+      display: inline;
+      text-align: center;
       margin-right: 20px;
       float: left;
       border: 1px solid #888;
@@ -2129,22 +2146,24 @@ img {
         #footer .socialList li:hover a {
           color: #033475; }
   #footer h2 {
-    text-align: left; }
+    text-align: center; }
   #footer ul {
     display: inline-block;
     padding: 0;
     margin: 0; }
+  #footer .address-container {
+    display: table; }
   #footer .address {
-    display: block;
-    list-style-type: none;
-    color: #888; }
+    margin: auto;
+    display: table;
+    list-style-type: none; }
     #footer .address a {
       font-size: 1em;
       display: inline;
       line-height: 1em;
       color: #fff; }
     #footer .address .email {
-      display: inline-block;
+      text-align: center;
       margin-top: 5px;
       padding-top: 5px;
       border-top: 1px solid #fff; }
