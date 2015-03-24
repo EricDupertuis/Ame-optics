@@ -250,6 +250,7 @@ img {
 
 #footer {
   padding-top: 50px;
+  padding-bottom: 50px;
   color: #fff;
   background-color: #202222;
 
@@ -333,6 +334,22 @@ img {
       margin-top: 5px;
       padding-top: 5px;
       border-top: 1px solid #fff;
+    }
+  }
+}
+
+#by {
+  height: 2em;
+  background-color: #202222;
+
+  p {
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+
+    a {
+      color: #033784;
     }
   }
 }
