@@ -2092,6 +2092,9 @@ img {
   #about p {
     font-size: 1.5em; }
 
+@media screen and (min-width: 768px) {
+  .about-desc {
+    margin-left: 25%; } }
 #products {
   padding-top: 50px; }
   #products figcaption {
@@ -2111,6 +2114,8 @@ img {
   padding-bottom: 50px;
   color: #fff;
   background-color: #202222; }
+  #footer h1 {
+    font-size: 3em; }
   #footer p {
     color: #888; }
   #footer a {
@@ -2156,6 +2161,9 @@ img {
     margin: auto;
     display: table;
     list-style-type: none; }
+    #footer .address li {
+      font-size: 1.2em;
+      text-align: center; }
     #footer .address a {
       font-size: 1em;
       display: inline;

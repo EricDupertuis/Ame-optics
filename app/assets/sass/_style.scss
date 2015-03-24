@@ -226,6 +226,13 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+
+  .about-desc {
+    margin-left: 25%;
+  }
+}
+
 #products {
   padding-top: 50px;
 
@@ -253,6 +260,10 @@ img {
   padding-bottom: 50px;
   color: #fff;
   background-color: #202222;
+
+  h1 {
+    font-size: 3em;
+  }
 
   p {
     color: #888;
@@ -313,13 +324,15 @@ img {
     margin: 0;
   }
 
-  .address-container {
-  }
-
   .address {
     margin: auto;
     display: table;
     list-style-type: none;
+
+    li {
+      font-size: 1.2em;
+      text-align: center;
+    }
 
     a {
       font-size: 1em;
