@@ -11,10 +11,6 @@ var minify = require('gulp-minify-css');
 var minifyHTML = require('gulp-minify-html');
 var copy = require('gulp-copy');
 
-gulp.task('default', function() {
-    // place code for your default task here
-});
-
 //concat js
 
 gulp.task('js', function() {
