@@ -32,6 +32,11 @@ img {
   border-radius: 5px;
 }
 
+figcaption {
+  margin-top: 1em;
+  text-align: center;
+}
+
 .sectionTitle {
   font-size: 3em;
 }
@@ -236,10 +241,6 @@ img {
 #products {
   padding-top: 50px;
 
-  figcaption {
-    text-align: center;
-  }
-
   p {
     margin-top: 2em;
     font-size: 2em;
@@ -283,7 +284,7 @@ img {
   .socialList {
     text-align: center;
     display: table;
-    margin: 0 auto;
+    margin: 4em auto 0 auto;
     padding: 0;
     list-style-type: none;
     height: 2em;

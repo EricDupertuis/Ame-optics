@@ -2396,6 +2396,10 @@ img {
   margin: auto;
   border-radius: 5px; }
 
+figcaption {
+  margin-top: 1em;
+  text-align: center; }
+
 .sectionTitle {
   font-size: 3em; }
 
@@ -2545,8 +2549,6 @@ img {
     margin-left: 25%; } }
 #products {
   padding-top: 50px; }
-  #products figcaption {
-    text-align: center; }
   #products p {
     margin-top: 2em;
     font-size: 2em;
@@ -2578,7 +2580,7 @@ img {
   #footer .socialList {
     text-align: center;
     display: table;
-    margin: 0 auto;
+    margin: 4em auto 0 auto;
     padding: 0;
     list-style-type: none;
     height: 2em; }
