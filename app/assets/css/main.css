@@ -2397,7 +2397,9 @@ img {
   border-radius: 5px; }
 
 figcaption {
+  font-size: 1.5em;
   margin-top: 1em;
+  margin-bottom: 1em;
   text-align: center; }
 
 .sectionTitle {
@@ -2548,14 +2550,18 @@ figcaption {
   .about-desc {
     margin-left: 25%; } }
 #products {
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  background-color: #202222; }
   #products p {
     margin-top: 2em;
     font-size: 2em;
     text-align: center; }
 
 #team {
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   #team p {
     font-size: 1.5em; }
 

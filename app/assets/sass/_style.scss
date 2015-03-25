@@ -33,7 +33,9 @@ img {
 }
 
 figcaption {
+  font-size: 1.5em;
   margin-top: 1em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -240,6 +242,9 @@ figcaption {
 
 #products {
   padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  background-color: #202222;
 
   p {
     margin-top: 2em;
@@ -250,6 +255,7 @@ figcaption {
 
 #team  {
   padding-top: 50px;
+  padding-bottom: 50px;
 
   p {
     font-size: 1.5em;
